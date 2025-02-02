@@ -8,7 +8,7 @@ export const Container = styled.div`
   form {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
 
     > div {
       display: grid;
@@ -17,9 +17,7 @@ export const Container = styled.div`
     }
   }
 
-  footer button {
-    padding: 1rem 2rem;
-    font-size: 1rem;
+  footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
